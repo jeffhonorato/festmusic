@@ -32,11 +32,20 @@ a {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
 .sobre {
-  background-image: url("../img/sobre/background-cabecalho.jpg");
+  background-image: url("../img/sobre/background-sobre.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
+  /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .apresentacao__titulo {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem; }
+  /* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .logo {
+    width: 400px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
