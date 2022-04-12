@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/******** VARIÁVEIS CONFIG ********/
+/******** RESET ********/
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+html {
+  scroll-behavior: smooth; }
+
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+ul, li {
+  list-style: none; }
+
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+img {
+  width: 100%;
+  display: block; }
+
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+a {
+  display: block;
+  text-decoration: none; }
+
+/******** MIXINS ********/
+/******** PÁGINA ********/
+
+/*# sourceMappingURL=main.css.map */
