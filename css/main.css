@@ -1,26 +1,26 @@
 @charset "UTF-8";
 /******** VARIÁVEIS CONFIG ********/
 /******** RESET ********/
-/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 ul, li {
   list-style: none; }
 
-/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 img {
   width: 100%;
   display: block; }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 a {
   text-decoration: none; }
 
@@ -65,19 +65,46 @@ a {
     color: #000;
     text-align: center;
     margin-bottom: 3rem;
-    font-family: "Righteous", cursive;
+    padding-top: 2rem;
+    font-family: "Aclonica", sans-serif;
     font-size: 60px; }
-  /* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .logo__box {
     display: flex;
     justify-content: center;
     align-items: center; }
-  /* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  /* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .logo {
     width: 400px;
     margin: 0 auto; }
-  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  /* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .img__detalhe {
     width: 400px; }
+  /* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .sobre__info {
+    background-image: url("../img/sobre/background-sobre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 8rem; }
+  /* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .sobre__info__titulo {
+    font-family: "Aclonica", sans-serif;
+    font-size: 50px;
+    text-align: center; }
+  /* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .sobre__info__subtitulo {
+    font-family: "Aclonica", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem; }
+  /* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .sobre__info__desc {
+    width: 700px;
+    margin: 0 auto;
+    font-family: "Blinker", sans-serif;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
