@@ -46,8 +46,16 @@ a {
     font-family: "Righteous", cursive;
     font-size: 60px; }
   /* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .logo__box {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  /* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .logo {
     width: 400px;
     margin: 0 auto; }
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+  .sobre .img__detalhe {
+    width: 400px; }
 
 /*# sourceMappingURL=main.css.map */
