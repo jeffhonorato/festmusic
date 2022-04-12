@@ -1,8 +1,9 @@
 /******** VARIÁVEIS CONFIG ********/
 $cor-header: #1E0A5E;
 $cor-fonte-menu: #FEB2BC;
+$cor-section1: #5C0029;
 $fonte-menu: 'Righteous', cursive;
-$fonte-titulo: 'Aclonica', sans-serif;;
+$fonte-titulo: 'Aclonica', sans-serif;
 $fonte-corpo: 'Blinker', sans-serif;
 
 
@@ -39,3 +40,4 @@ a {
 /******** PÁGINA ********/
 @import "header.scss";
 @import "sobre.scss";
+@import "programacao.scss";
