@@ -22,13 +22,21 @@ img {
 
 /* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 a {
-  display: block;
   text-decoration: none; }
 
 /******** MIXINS ********/
 /******** PÁGINA ********/
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_header.scss */
 .header {
-  background-color: #1D8A99; }
+  background-color: #1E0A5E; }
+
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+.sobre {
+  background-image: url("../img/sobre/background-cabecalho.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */

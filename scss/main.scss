@@ -1,5 +1,5 @@
 /******** VARIÁVEIS CONFIG ********/
-$cor-header: #1D8A99;
+$cor-header: #1E0A5E;
 
 
 
@@ -24,7 +24,7 @@ img {
 }
 
 a {
-    display: block;
+    // display: block;
     text-decoration: none
 }
 
@@ -35,3 +35,4 @@ a {
 
 /******** PÁGINA ********/
 @import "header.scss";
+@import "sobre.scss";
