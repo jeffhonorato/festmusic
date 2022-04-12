@@ -40,10 +40,12 @@ a {
   height: 100vh; }
   /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .apresentacao__titulo {
-    color: #fff;
+    color: #000;
     text-align: center;
-    margin-bottom: 3rem; }
-  /* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
+    margin-bottom: 3rem;
+    font-family: "Righteous", cursive;
+    font-size: 60px; }
+  /* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
   .sobre .logo {
     width: 400px;
     margin: 0 auto; }
