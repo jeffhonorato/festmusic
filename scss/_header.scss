@@ -1,3 +1,28 @@
 .header {
     background-color: $cor-header;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 20vh;
+
+        .titulo__principal {
+            font-family: $fonte-titulo;
+            color: #fff;
+        }
+
+        .nav__box {
+            display: flex;
+            gap: 1.4rem;
+        }
+
+        .nav__link {
+            padding: .4rem .6rem;
+            box-shadow: 1px 4px 10px $cor-fonte-menu;
+            color: #fff;
+            border-radius: 4px;
+            font-family: $fonte-titulo;
+            font-size: 1.3rem;
+        }
 }

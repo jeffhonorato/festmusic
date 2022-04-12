@@ -1,26 +1,26 @@
 @charset "UTF-8";
 /******** VARIÁVEIS CONFIG ********/
 /******** RESET ********/
-/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 ul, li {
   list-style: none; }
 
-/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 img {
   width: 100%;
   display: block; }
 
-/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/main.scss */
 a {
   text-decoration: none; }
 
@@ -28,7 +28,29 @@ a {
 /******** PÁGINA ********/
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_header.scss */
 .header {
-  background-color: #1E0A5E; }
+  background-color: #1E0A5E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 20vh; }
+  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_header.scss */
+  .header .titulo__principal {
+    font-family: "Righteous", cursive;
+    color: #fff; }
+  /* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_header.scss */
+  .header .nav__box {
+    display: flex;
+    gap: 1.4rem; }
+  /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_header.scss */
+  .header .nav__link {
+    padding: .4rem .6rem;
+    box-shadow: 1px 4px 10px #FEB2BC;
+    color: #fff;
+    border-radius: 4px;
+    font-family: "Righteous", cursive;
+    font-size: 1.3rem; }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_sobre.scss */
 .sobre {
