@@ -177,9 +177,10 @@ a {
     justify-content: center;
     align-items: center; }
   /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
-  .programacao .linha {
-    width: 300px; }
-  /* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .prog__card {
+    border: 6px dotted #F85A3E;
+    padding: .8rem; }
+  /* line 75, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__img {
     width: 300px; }
 

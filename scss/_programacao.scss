@@ -60,9 +60,17 @@
             align-items: center;
         }
 
-        .linha {
-            width: 300px;
+        .prog__card {
+            border: 6px dotted $cor-header;
+            padding: .8rem;
         }
+
+        // .linha {
+        //     width: 300px;
+        //     height: 4px;
+        //     border: none;
+        //     background-color: $cor-header;
+        // }
 
         .prog__img {
             width: 300px;
