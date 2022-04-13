@@ -39,4 +39,25 @@
             background-attachment: fixed;
             height: 100vh;
         }
+
+        .prog__info {
+            padding-top: 4rem;
+            color: #fff;
+            font-family: $fonte-corpo;
+            font-size: 2rem;
+            font-weight: bold;
+            width: 800px;
+            text-align: center;
+            margin: 0 auto;
+            // background: rgba(119, 0, 255, 0.418);
+            // backdrop-filter: (10px);
+        }
+
+        .linha {
+            width: 300px;
+        }
+
+        .prog__img {
+            width: 300px;
+        }
 }

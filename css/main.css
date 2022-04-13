@@ -160,5 +160,21 @@ a {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh; }
+  /* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .prog__info {
+    padding-top: 4rem;
+    color: #fff;
+    font-family: "Blinker", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto; }
+  /* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .linha {
+    width: 300px; }
+  /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .prog__img {
+    width: 300px; }
 
 /*# sourceMappingURL=main.css.map */
