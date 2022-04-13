@@ -1,4 +1,35 @@
 .programacao {
-    background-color: $cor-section1;
+    background-image: url("../img/programacao/background-programação.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
+
+        .prog__titulo {
+            @include titulo-section;
+        }
+
+        .prog__btn {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .prog__btn__link {
+            color: #fff;
+            font-size: 2.4rem;
+            background-color: $cor-header;
+            font-family: $fonte-menu;
+            padding: .2rem .6rem;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            cursor: pointer;
+
+                &:hover {
+                    background-color: $cor-btn;
+                    transition: all .6s;
+                }
+        }
 }
