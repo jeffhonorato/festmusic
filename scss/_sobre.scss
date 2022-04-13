@@ -7,7 +7,7 @@
     height: 100vh;
 
         .apresentacao__titulo {
-            color: #000;
+            color: #fff;
             text-align: center;
             margin-bottom: 3rem;
             padding-top: 2rem;
@@ -17,7 +17,7 @@
 
         .logo__box {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
         }
 
@@ -27,7 +27,7 @@
         }
 
         .img__detalhe {
-            width: 400px;
+            width: 200px;
         }
 
         .sobre__info {
@@ -42,6 +42,7 @@
 
         .sobre__info__titulo {
             font-family: $fonte-titulo;
+            color: #fff;
             font-size: 50px;
             text-align: center;
         }
@@ -58,6 +59,13 @@
             margin: 0 auto;
             font-family: $fonte-corpo;
             font-size: 2rem;
+            font-weight: bold;
+            padding: .8rem;
+            color: #000;
+            background: rgba(255,255,255, 0.8);
+            box-shadow: 1px 4px 20px #000;
+            backdrop-filter: (10px);
+            border-radius: 6px;
         }
 }
 

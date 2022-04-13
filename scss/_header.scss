@@ -19,10 +19,16 @@
 
         .nav__link {
             padding: .4rem .6rem;
-            box-shadow: 1px 4px 10px $cor-fonte-menu;
+            box-shadow: 1px 4px 10px $cor-btn;
             color: #fff;
             border-radius: 4px;
             font-family: $fonte-menu;
             font-size: 1.3rem;
+
+                &:hover {
+                    background-color: $cor-btn;
+                    box-shadow: 1px 4px 10px #fff;
+                    transition: all .6s;
+                }
         }
 }
