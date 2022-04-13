@@ -31,7 +31,7 @@
                 }
         }
 
-        .prog__cards {
+        .prog__cabecalho {
             background-image: url("../img/programacao/background-programação.jpg");
             background-position: center;
             background-repeat: no-repeat;
@@ -41,7 +41,7 @@
         }
 
         .prog__info {
-            padding-top: 4rem;
+            padding: 4rem 3rem;
             color: #fff;
             font-family: $fonte-corpo;
             font-size: 2rem;
@@ -51,6 +51,13 @@
             margin: 0 auto;
             // background: rgba(119, 0, 255, 0.418);
             // backdrop-filter: (10px);
+        }
+
+        .prog__cards {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
         }
 
         .linha {

@@ -153,7 +153,7 @@ a {
       background-color: #691E06;
       transition: all .6s; }
   /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
-  .programacao .prog__cards {
+  .programacao .prog__cabecalho {
     background-image: url("../img/programacao/background-programação.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ a {
     height: 100vh; }
   /* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__info {
-    padding-top: 4rem;
+    padding: 4rem 3rem;
     color: #fff;
     font-family: "Blinker", sans-serif;
     font-size: 2rem;
@@ -171,9 +171,15 @@ a {
     text-align: center;
     margin: 0 auto; }
   /* line 56, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .prog__cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center; }
+  /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .linha {
     width: 300px; }
-  /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  /* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__img {
     width: 300px; }
 
