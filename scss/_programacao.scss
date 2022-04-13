@@ -1,11 +1,8 @@
 .programacao {
-    background-image: url("../img/programacao/background-programação.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    background-color: $cor-section1;
 
+       
+        
         .prog__titulo {
             @include titulo-section;
         }
@@ -15,6 +12,7 @@
             gap: 1rem;
             justify-content: center;
             align-items: center;
+            padding-bottom: 4rem;
         }
 
         .prog__btn__link {
@@ -31,5 +29,14 @@
                     background-color: $cor-btn;
                     transition: all .6s;
                 }
+        }
+
+        .prog__cards {
+            background-image: url("../img/programacao/background-programação.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
         }
 }

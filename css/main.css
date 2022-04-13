@@ -122,13 +122,8 @@ a {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
 .programacao {
-  background-image: url("../img/programacao/background-programação.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh; }
-  /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  background-color: #190B28; }
+  /* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__titulo {
     color: #fff;
     text-align: center;
@@ -136,13 +131,14 @@ a {
     padding-top: 2rem;
     font-family: "Aclonica", sans-serif;
     font-size: 60px; }
-  /* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__btn {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    align-items: center; }
-  /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+    align-items: center;
+    padding-bottom: 4rem; }
+  /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
   .programacao .prog__btn__link {
     color: #fff;
     font-size: 2.4rem;
@@ -152,9 +148,17 @@ a {
     border-radius: 10px;
     border: 2px solid #fff;
     cursor: pointer; }
-    /* line 30, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+    /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
     .programacao .prog__btn__link:hover {
       background-color: #691E06;
       transition: all .6s; }
+  /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/festmusic/scss/_programacao.scss */
+  .programacao .prog__cards {
+    background-image: url("../img/programacao/background-programação.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */
